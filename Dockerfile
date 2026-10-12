@@ -10,8 +10,3 @@ WORKDIR /app
 COPY --from=build /app/target/*.jar app.jar
 EXPOSE 8080
 CMD ["java", "-jar", "app.jar"]
-<<<<<<< HEAD
-
-
-=======
->>>>>>> 09de99e (Dockerfile backend crAPI com Maven)
